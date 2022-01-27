@@ -154,7 +154,7 @@ class OnfidoSdk(var currentFlutterResult: MethodChannel.Result?, var activityLis
                     flowStepList.add(FaceCaptureStepBuilder.forPhoto().build());
                 }
             }
-            flowStepList.add(FlowStep.FINAL)
+            // flowStepList.add(FlowStep.FINAL)
             return flowStepList.toTypedArray()
         } catch (e: Exception) {
             e.printStackTrace();
